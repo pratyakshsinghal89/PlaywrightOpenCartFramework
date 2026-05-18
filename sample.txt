@@ -1,1 +1,2 @@
-adding new change in the file some te
+adding new change in the file some to a
+now this change making from local repository 
