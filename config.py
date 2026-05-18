@@ -1,5 +1,5 @@
 class Config:
-    email="pavanol@abc.com"
+    email="pavanol1@abc.com"
     password="test@123"
 
     invalid_email="pavanol123@abc.com"
