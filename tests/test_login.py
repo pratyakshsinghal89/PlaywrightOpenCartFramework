@@ -43,7 +43,7 @@ from playwright.sync_api import expect
 from config import Config    # Configuration file holding credentials
 
 
-# @pytest.mark.regression
+@pytest.mark.regression
 def test_invalid_user_login(page):
     home_page = HomePage(page)
     login_page = LoginPage(page)
@@ -58,7 +58,7 @@ def test_invalid_user_login(page):
     expect(login_page.get_login_error()).to_be_visible()
 
 
-# @pytest.mark.sanity
+@pytest.mark.sanity
 def test_valid_user_login(page):
     home_page = HomePage(page)
     login_page = LoginPage(page)
